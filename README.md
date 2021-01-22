@@ -18,4 +18,4 @@ First version features:
   - Contacts page
   - Implementation of search by contact name
   - Messages of thread page
-  - Implementation of sending a new message (improvement needed)
+  - Implementation of sending a new message
