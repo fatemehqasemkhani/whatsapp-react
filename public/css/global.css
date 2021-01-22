@@ -1,0 +1,71 @@
+body {
+  font-family: Segoe UI,Helvetica Neue,Helvetica,Lucida Grande,Arial,Ubuntu,Cantarell,Fira Sans,sans-serif !important;
+  background: #090e11 !important;
+}
+
+div#__next,
+.ant-spin,
+.ant-spin-nested-loading,
+.ant-spin-container {
+  height: 100% !important;
+}
+
+.content_wrapper {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 6px !important;
+  height: 6px !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: hsla(0,0%,100%,.16);
+}
+
+::-webkit-scrollbar-track {
+  background: hsla(0,0%,100%,.1);
+}
+
+.ant-progress-bg {
+  height: 4px !important;
+}
+
+ul, ol {
+  padding: 0 !important;
+  margin: 0 !important;
+  list-style: none;
+}
+
+p {
+  margin: 0;
+}
+
+.ant-input-affix-wrapper:focus, .ant-input-affix-wrapper-focused {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.ant-spin-nested-loading > div > .ant-spin {
+  max-height: none !important;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #131c21 !important;
+}
+
+.ant-progress-line {
+  width: 40% !important;
+}
+
+.anticon-loading {
+  font-size: 50px;
+  margin-bottom: 80px;
+}
+
+.anticon-loading svg {
+  color: #d4d5d7;
+}

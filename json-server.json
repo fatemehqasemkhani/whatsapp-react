@@ -1,0 +1,4 @@
+{
+  "port": 9000,
+  "static": "'./node_modules/json-server/public'"
+}
